@@ -31,7 +31,7 @@ module.exports = {//objeto donde va a vivir nuestra configuración
             }
         ),
         new CopyWebpackPlugin([{
-            from: "./src/styles/styles.css",
+            from: "/src/styles/styles.css",
             to: ""
         }])
     ]
